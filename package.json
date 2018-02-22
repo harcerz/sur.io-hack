@@ -1,0 +1,22 @@
+{
+  "name": "surviv.io-hack",
+  "version": "0.0.1",
+  "description": "hack-proxy do surviv.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harcerz/sur.io-hack.git"
+  },
+  "author": "Harcerz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harcerz/sur.io-hack/issues"
+  },
+  "homepage": "https://github.com/harcerz/sur.io-hack#readme",
+  "dependencies": {
+    "rocky": "^0.4.15"
+  }
+}
