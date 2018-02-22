@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="312"
+   viewBox="0 0 105.83333 82.550021"
+   version="1.1"
+   id="svg4492"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="map-building-outhouse-ceiling.svg">
+  <defs
+     id="defs4486">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5648"
+       id="pattern5663"
+       patternTransform="matrix(0,-0.26458332,0.26458332,0,156.72977,266.21947)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5648"
+       id="pattern5661"
+       patternTransform="matrix(0,-0.26458332,0.26458332,0,156.72977,255.63613)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5387"
+       id="pattern5393"
+       patternTransform="matrix(0,-0.22930547,0.21656629,0,144.73533,274.68614)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5379"
+       id="pattern5387"
+       patternTransform="matrix(0,-0.86666634,0.81851826,0,426.66672,296.00001)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5508"
+       id="pattern5379"
+       patternTransform="matrix(0,-0.22930547,0.21656629,0,144.73533,274.68614)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="120.00001"
+       height="120.00006"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,148.26311,278.91946)"
+       id="pattern5508">
+      <rect
+         y="0"
+         x="0"
+         height="120.00007"
+         width="120.00002"
+         id="rect6768-3"
+         style="fill:#816348;fill-opacity:1;stroke:none;stroke-width:14.17323303;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <rect
+         y="0"
+         x="36.000034"
+         height="120.00007"
+         width="3.9999998"
+         id="rect5218-7"
+         style="fill:#000000;fill-opacity:0.35353537;stroke:none;stroke-width:7.54187918;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <rect
+         y="0"
+         x="76.000015"
+         height="120.00007"
+         width="3.9999998"
+         id="rect5218-5-6"
+         style="fill:#000000;fill-opacity:0.35353537;stroke:none;stroke-width:7.54187918;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <rect
+         y="0"
+         x="115.99999"
+         height="120.00007"
+         width="3.9999998"
+         id="rect5218-5-1-6"
+         style="fill:#000000;fill-opacity:0.35353537;stroke:none;stroke-width:7.54187918;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5389-3">
+      <rect
+         style="fill:url(#pattern5393);fill-opacity:1;stroke:none;stroke-width:2.24506402;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect5391-6"
+         width="35.983341"
+         height="57.150009"
+         x="48.779762"
+         y="196.36946" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5389-3-8">
+      <rect
+         style="fill:url(#pattern5393);fill-opacity:1;stroke:none;stroke-width:2.24506402;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect5391-6-8"
+         width="35.983341"
+         height="57.150009"
+         x="48.779762"
+         y="196.36946" />
+    </clipPath>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="120.00002"
+       height="120.00007"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,156.72977,257.75281)"
+       id="pattern5648">
+      <rect
+         id="rect5626"
+         y="0"
+         x="0"
+         height="120.00007"
+         width="120.00002"
+         style="fill:none;stroke:none;stroke-width:3.77952766" />
+      <rect
+         id="rect5632"
+         y="0"
+         x="0"
+         height="120.00007"
+         width="120.00002"
+         style="fill:none;stroke:none;stroke-width:3.77952766" />
+      <rect
+         id="rect5634"
+         y="0"
+         x="0"
+         height="120.00007"
+         width="120.00002"
+         style="fill:none;stroke:none;stroke-width:3.77952766" />
+      <rect
+         id="rect5636"
+         y="0"
+         x="0"
+         height="120.00007"
+         width="120.00002"
+         style="fill:none;stroke:none;stroke-width:3.77952766" />
+      <rect
+         id="rect5638"
+         y="0"
+         x="0"
+         height="120.00007"
+         width="120.00002"
+         style="fill:none;stroke:none;stroke-width:3.77952766" />
+      <rect
+         y="0"
+         x="0"
+         height="120.00007"
+         width="120.00002"
+         id="rect5640"
+         style="fill:#864f1c;fill-opacity:1;stroke:none;stroke-width:14.17323303;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <rect
+         y="0"
+         x="36.000034"
+         height="120.00007"
+         width="3.9999998"
+         id="rect5642"
+         style="fill:#000000;fill-opacity:0.35353537;stroke:none;stroke-width:7.54187918;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <rect
+         y="0"
+         x="76.000015"
+         height="120.00007"
+         width="3.9999998"
+         id="rect5644"
+         style="fill:#000000;fill-opacity:0.35353537;stroke:none;stroke-width:7.54187918;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <rect
+         y="0"
+         x="115.99999"
+         height="120.00007"
+         width="3.9999998"
+         id="rect5646"
+         style="fill:#000000;fill-opacity:0.35353537;stroke:none;stroke-width:7.54187918;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0422459"
+     inkscape:cx="86.078038"
+     inkscape:cy="198.52221"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="328"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="false"
+     objecttolerance="11"
+     gridtolerance="10"
+     guidetolerance="10">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4594"
+       originx="0"
+       originy="0"
+       spacingx="2.1166669"
+       spacingy="2.1166669" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4489">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-31.846428,-206.9528)">
+    <rect
+       transform="translate(35.983338,10.58333)"
+       y="196.36946"
+       x="48.779762"
+       height="57.150009"
+       width="35.983341"
+       id="rect5385-9"
+       style="fill:url(#pattern5661);fill-opacity:1;stroke:#191919;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;opacity:0.309"
+       clip-path="url(#clipPath5389-3)" />
+    <rect
+       transform="translate(9.319332e-7,10.583327)"
+       y="196.36946"
+       x="48.779762"
+       height="57.150009"
+       width="35.983341"
+       id="rect5385-9-3"
+       style="fill:url(#pattern5663);fill-opacity:1;stroke:#191919;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;opacity:0.3"
+       clip-path="url(#clipPath5389-3-8)" />
+  </g>
+</svg>
