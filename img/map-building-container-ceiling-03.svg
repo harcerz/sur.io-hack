@@ -15,7 +15,7 @@
    viewBox="0 0 47.625 141.81668"
    version="1.1"
    id="svg4492"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="map-building-container-ceiling-03.svg">
   <defs
      id="defs4486">
@@ -92,16 +92,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0422459"
-     inkscape:cx="9.9113229"
+     inkscape:cx="-147.92091"
      inkscape:cy="289.62578"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1018"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false"
      fit-margin-top="0"
@@ -145,7 +145,7 @@
        transform="translate(0,1.0666666e-6)" />
     <path
        sodipodi:nodetypes="cccccccccccccccccc"
-       style="fill:url(#pattern5310);fill-opacity:1;stroke:#191919;stroke-width:3.17499995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       style="fill:url(#pattern5310);fill-opacity:1;stroke:#191919;stroke-width:3.17499995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;opacity:0.3"
        d="m 80.529784,109.73151 v 100.54167 h 8.504383 l 4.19561,-4.23334 h 22.225003 l 4.23333,4.23334 h 8.46667 V 109.73151 Z m 12.699991,33.86667 10.583335,2.11667 10.58333,-4.23334 -2.11666,8.46667 2.11666,8.46667 -8.46666,-2.11667 -10.583338,4.23333 2.116665,-8.46666 z"
        id="path5304"
        inkscape:connector-curvature="0"

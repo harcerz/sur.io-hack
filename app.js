@@ -27,11 +27,14 @@ proxy
   .forward('http://surviv.io')
   .useResponse(function (req, res, next) {
     if (req.url.indexOf(".svg") > -1){
+        console.log(req.url.slice(req.url.lastIndexOf("/")+1))   
         if (data[req.url.slice(req.url.lastIndexOf("/")+1)]!==undefined){
                 res.setHeader('HACK', '!!!')
                 res.body = Buffer.from(data[req.url.slice(req.url.lastIndexOf("/")+1)], 'utf8')
                 console.log(req.url.slice(req.url.lastIndexOf("/")+1) + " HACKED!")
-        }   
+        }
+        else
+        console.log(req.url)   
     }
     next()
   })
@@ -40,11 +43,12 @@ proxy.routeAll()
 
 readFiles('img/', function(filename, content) {
   data[filename] = content;
-  proxy.listen(3000)
+  console.log(data)
+ 
 
 }, function(err) {
   throw err;
 });
 
-
+proxy.listen(3000)
 console.log('Server listening on port:', 3000)
