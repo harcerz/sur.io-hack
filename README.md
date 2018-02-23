@@ -1,2 +1,2 @@
 # sur.io-hack
-Proxy ułatwiające grę.
+Proxy ułatwiające grę... :)
