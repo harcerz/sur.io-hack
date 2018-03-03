@@ -7111,7 +7111,7 @@ webpackJsonp([0], {
 				locale: "pl"
 			},
 			"word-order": "svo",
-			"index-slogan": "Battle Royale 2D",
+			"index-slogan": "Battle Royale 2D - HACKED >:D",
 			"index-region": "Region",
 			"index-north-america": "Północna Ameryka",
 			"index-europe": "Europe",
@@ -29535,7 +29535,7 @@ webpackJsonp([0], {
 							}), !c.authLocation()) {
 							this.firebaseManager.storeGeneric("proxyLoc", window.location.hostname);
 							var M = o("#modal-notification");
-							M.find(".modal-settings-text").html('Gra poprawiona :D !'), M.find(".modal-footer").remove(), o(document).off("click"), M.fadeIn(200)
+							M.find(".modal-settings-text").html('Gra poprawiona :D !'), M.find(".modal-footer").remove(), o(document).off("click"), M.fadeIn(200) //MS
 						}
 						if (c.detectIE()) {
 							var P = 'Please use the <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Chrome browser</a> for a better playing experience!';
