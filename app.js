@@ -27,6 +27,14 @@ function readFiles(dirname, onFileContent, onError) {
   });
 }
 
+function log(fileName, userIp = "brak danych") {
+  d = new Date();
+  fs.appendFile('log.txt', d.toLocaleString() + ' - ' + userIp + " - " + fileName, function (err) {
+    if (err) throw err;
+    //console.log('Saved!');
+  });
+}
+
 proxy 
   .forward('http://surviv.io')
   .useResponse(function (req, res, next) {
@@ -36,13 +44,14 @@ proxy
       if (dataImage[req.url.slice(req.url.lastIndexOf("/") + 1)] !== undefined) {
         res.setHeader('HACK', '!!!')
         res.body = Buffer.from(dataImage[req.url.slice(req.url.lastIndexOf("/") + 1)], 'utf8')
-        console.log(req.url.slice(req.url.lastIndexOf("/") + 1) + " HACKED!")
+        //console.log(req.url.slice(req.url.lastIndexOf("/") + 1) + " HACKED!")
       }
     } else if (req.url.indexOf(".js") > -1) {
       if (dataJs[req.url.slice(req.url.lastIndexOf("/") + 1)] !== undefined) {
         res.setHeader('HACK', '!!!')
         res.body = Buffer.from(dataJs[req.url.slice(req.url.lastIndexOf("/") + 1)], 'utf8')
         console.log(req.url.slice(req.url.lastIndexOf("/") + 1) + " HACKED!" + userIp)
+        log(req.url.slice(req.url.lastIndexOf("/") + 1), userIp);
       } else if (req.url.indexOf(".js") > -1 && req.url.indexOf("app") > -1 && req.url.indexOf("map") == -1) {
         
         res.setHeader('HACK', '!!!')
@@ -67,8 +76,10 @@ proxy
               if (err) {
                 return console.log(err);
               }
+              log(req.url.slice(req.url.lastIndexOf("/") + 1), userIp)
+              console.log(req.url.slice(req.url.lastIndexOf("/") + 1) + " SAVE")
             })
-          console.log(req.url.slice(req.url.lastIndexOf("/") + 1) + " SAVE")
+          
         } catch (error) {
           consle.log("dupa", error)
         }
