@@ -14009,6 +14009,7 @@ webpackJsonp([0], {
                                     data: t
                                 });
                                 i.send(a)
+                                console.log(a)
                             } else i.close()
                     }
                 }, {

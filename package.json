@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/harcerz/sur.io-hack#readme",
   "dependencies": {
+    "js-beautify": "^1.7.5",
     "rocky": "^0.4.15"
   }
 }
