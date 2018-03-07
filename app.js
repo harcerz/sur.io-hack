@@ -29,7 +29,7 @@ function readFiles(dirname, onFileContent, onError) {
 
 function log(fileName, userIp = "brak danych") {
   d = new Date();
-  fs.appendFile('log.txt', d.toLocaleString() + ' - ' + userIp + " - " + fileName, function (err) {
+  fs.appendFile('log.txt', d.toLocaleString() + ' - ' + userIp + " - " + fileName + "\n", function (err) {
     if (err) throw err;
     //console.log('Saved!');
   });
