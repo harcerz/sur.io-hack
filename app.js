@@ -27,7 +27,7 @@ function readFiles(dirname, onFileContent, onError) {
   });
 }
 
-proxy
+proxy 
   .forward('http://surviv.io')
   .useResponse(function (req, res, next) {
     console.log(req.connection.remoteAddress)
