@@ -57,7 +57,7 @@ webpackJsonp([0], {
                 damagePerTick: [.012, .02, .035, .075, .1, .14, .22, .22]
             },
             player: {
-                radius: 1,
+                radius: .1,
                 minActiveTime: 10,
                 moveSpeed: 12,
                 health: 100,
@@ -9452,6 +9452,7 @@ webpackJsonp([0], {
                             console.log("Connected to profiler server")
                         }, this.ws.onmessage = function(e) {
                             var t = JSON.parse(e.data);
+                            //console.log(t)
                             a.setServerProfile(t)
                         }, this.ws.onclose = function() {
                             console.log("Profiler socket closed")
@@ -14032,6 +14033,7 @@ webpackJsonp([0], {
                                 }, this.ws.onmessage = function(e) {
                                     if (i.active) {
                                         var t = JSON.parse(e.data);
+                                        console.log(t)
                                         i.onMessage(t.type, t.data)
                                     }
                                 }
@@ -14086,6 +14088,8 @@ webpackJsonp([0], {
                                     data: t
                                 });
                                 i.send(a)
+                                console.log("A")
+                                window.test = "a";
                             } else i.close()
                     }
                 }, {
@@ -14214,13 +14218,16 @@ webpackJsonp([0], {
         n.prototype = {
             free: function() {},
             addShot: function(e, t, i) {
+                console.log(e)
+                
+                console.log(t.netData)
                 for (var a = null, n = 0; n < this.shots.length; n++)
                     if (this.shots[n].finished) {
                         this.shots[n] = e, a = this.shots[n];
                         break
                     }
                 a || (a = e, this.shots.push(a));
-                var o = r.items[a.weapon];
+                var o = r.items[a.weapon]; 
                 if (a.finished = !1, a.delay = o.pullDelay ? .45 * o.pullDelay : 0, this.audioManager.playSound(o.sound.shoot, {
                         channel: t.__id == i.__id ? "activePlayer" : "otherPlayers",
                         soundPos: t.pos
@@ -14352,6 +14359,7 @@ webpackJsonp([0], {
             updateObj: function(e, t, i) {
                 var a = this.getObjById(t),
                     n = !1;
+                    //MS console.log(i)
                 void 0 === a && (a = this.types[e].alloc(), a.__id = t, a.__type = e, this.idToObj[t] = a, n = !0), a.updateData(i, n)
             },
             deleteObj: function(e) {
@@ -29444,6 +29452,8 @@ webpackJsonp([0], {
                 }
             },
             sendMessage: function(e, t) {
+                //console.log(t)
+                //t.moveLeft = true
                 if (this.ws && this.ws.readyState == this.ws.OPEN) {
                     var i = new d.MsgStream(new ArrayBuffer(4096));
                     i.serializeMsg(e, t), this.ws.send(i.getBuffer())
@@ -30010,6 +30020,7 @@ webpackJsonp([0], {
                 }, {
                     key: "updateData",
                     value: function(e, t) {
+                        //console.log(e)
                         this.isNew = t, this.netData = {
                             pos: m.copy(e.pos),
                             dir: m.copy(e.dir),

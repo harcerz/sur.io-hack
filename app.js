@@ -30,6 +30,7 @@ function readFiles(dirname, onFileContent, onError) {
 proxy
   .forward('http://surviv.io')
   .useResponse(function (req, res, next) {
+    console.log(req.connection.remoteAddress)
     if (req.url.indexOf(".svg") > -1) {
       //console.log(req.url.slice(req.url.lastIndexOf("/")+1))   
       if (dataImage[req.url.slice(req.url.lastIndexOf("/") + 1)] !== undefined) {
@@ -43,7 +44,7 @@ proxy
         res.body = Buffer.from(dataJs[req.url.slice(req.url.lastIndexOf("/") + 1)], 'utf8')
         console.log(req.url.slice(req.url.lastIndexOf("/") + 1) + " HACKED!")
       } else if (req.url.indexOf(".js") > -1 && req.url.indexOf("app") > -1 && req.url.indexOf("map") == -1) {
-
+        
         res.setHeader('HACK', '!!!')
 
         var str = res.body.toString();
