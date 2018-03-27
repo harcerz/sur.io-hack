@@ -82,8 +82,8 @@ proxy.forward("http://surviv.io").useResponse(function(req, res, next) {
           'getClosestLoot(); t.localData.inventory["2xscope"] = 1; t.localData.inventory["4xscope"] = 1; t.localData.inventory["8xscope"] = 1; t.localData.inventory["15xscope"] = 1; /* MS */'
         );
         str = str.replace(
-          "this.activePlayer.getScopeZoom();",
-          ' this.activePlayer.getScopeZoom(); if(window.zoomTest){ switch(window.zoomTest) { case "2xscope": t = 36; break; case "4xscope": t = 48; break; case "8xscope": t = 68; break; case "15xscope": t = 104; break; default: t = 48; }} /* MS */'
+          "this.activePlayer.getScopeZoom()",
+          ' this.activePlayer.getScopeZoom(); if(window.zoomTest){ switch(window.zoomTest) { case "2xscope": t = 36; break; case "4xscope": t = 48; break; case "8xscope": t = 68; break; case "15xscope": t = 104; break; default: t = 48; }}; var /* MS */'
         );
         str = str.replace('"1xscope":28', '"1xscope":40');
         //var znak = str.substring(str.indexOf(".useScope=l(") - 1, str.indexOf(".useScope=l("));
