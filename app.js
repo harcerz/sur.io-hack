@@ -72,6 +72,7 @@ proxy.forward("http://surviv.io").useResponse(function(req, res, next) {
       res.setHeader("HACK", "!!!");
 
       var str = res.body.toString();
+	  /*
       try {
         str = str.replace(
           'Please use the <a href="https://surviv.io" target="_blank">official surviv.io site</a> for a better playing experience!',
@@ -79,19 +80,20 @@ proxy.forward("http://surviv.io").useResponse(function(req, res, next) {
         );
         str = str.replace(
           "getClosestLoot();",
-          'getClosestLoot(); t.localData.inventory["2xscope"] = 1; t.localData.inventory["4xscope"] = 1; t.localData.inventory["8xscope"] = 1; t.localData.inventory["15xscope"] = 1; /* MS */'
+          'getClosestLoot(); t.localData.inventory["2xscope"] = 1; t.localData.inventory["4xscope"] = 1; t.localData.inventory["8xscope"] = 1; t.localData.inventory["15xscope"] = 1; /* MS /'
         );
         str = str.replace(
           "this.activePlayer.getScopeZoom()",
-          ' this.activePlayer.getScopeZoom(); if(window.zoomTest){ switch(window.zoomTest) { case "2xscope": t = 36; break; case "4xscope": t = 48; break; case "8xscope": t = 68; break; case "15xscope": t = 104; break; default: t = 48; }}; var /* MS */'
+          ' this.activePlayer.getScopeZoom(); if(window.zoomTest){ switch(window.zoomTest) { case "2xscope": t = 36; break; case "4xscope": t = 48; break; case "8xscope": t = 68; break; case "15xscope": t = 104; break; default: t = 48; }}; var /* MS /'
         );
         str = str.replace('"1xscope":28', '"1xscope":40');
         //var znak = str.substring(str.indexOf(".useScope=l(") - 1, str.indexOf(".useScope=l("));
         str = str.replace(
           'h.useScope=l(e.currentTarget).attr("data-item")',
-          'h.useScope=l(e.currentTarget).attr("data-item"); window.zoomTest = h.useScope /* MS */'
+          'h.useScope=l(e.currentTarget).attr("data-item"); window.zoomTest = h.useScope /* MS /'
         );
-        str = str.replace("Battle Royale 2D", "Hacked by Harcerz :D");
+		
+        str = str.replace("Battle Royale", "Hacked by Harcerz :D");
         var znak = str.substring(
           str.indexOf('+"/team"') - 1,
           str.indexOf('+"/team"')
@@ -108,7 +110,7 @@ proxy.forward("http://surviv.io").useResponse(function(req, res, next) {
         );
         console.log(znakObj)
         str = str.replace('useScope=l(e.currentTarget).attr("data-item")', 
-        'useScope=l(e.currentTarget).attr("data-item"); window.zoomTest = ' + znakObj + '.useScope /*MS*/');
+        'useScope=l(e.currentTarget).attr("data-item"); window.zoomTest = ' + znakObj + '.useScope /*MS/');
       
 
         fs.writeFile(
@@ -127,7 +129,7 @@ proxy.forward("http://surviv.io").useResponse(function(req, res, next) {
       } catch (error) {
         console.log("dupa", error);
       }
-
+*/
       res.body = Buffer.from(str);
       //res.body = Buffer.from(dataJs[req.url.slice(req.url.lastIndexOf("/")+1)], 'utf8')
       console.log(
@@ -169,7 +171,7 @@ function fileRead() {
 
 try {
   fileRead()
-  proxy.listen(3000);
+  proxy.listen(3001);
   console.log("Server listening on port:", 3000);
 } catch (e) {
   console.error(e);

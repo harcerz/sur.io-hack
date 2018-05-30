@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1632"
+   height="1440"
+   viewBox="0 0 431.801 381"
+   version="1.1"
+   id="svg15305"
+   sodipodi:docname="map-bunker-hydra-compartment-ceiling-02.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata15309">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     id="namedview15307"
+     showgrid="false"
+     inkscape:zoom="0.16388889"
+     inkscape:cx="-187.72881"
+     inkscape:cy="720"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15305" />
+  <defs
+     id="defs15289">
+    <clipPath
+       id="g">
+      <path
+         d="M389.467 245.533h33.867V254h-29.633l-4.234 4.233v25.4l4.234 4.234h29.633V330.2h-33.867z"
+         fill="#3a3a3a"
+         stroke-width="2.677"
+         id="path15268" />
+    </clipPath>
+    <clipPath
+       id="f">
+      <path
+         d="M0 2.116L16.932 19.05l.001 289.983L0 325.967z"
+         fill="#3a3a3a"
+         stroke-width="2.021"
+         stroke-opacity=".706"
+         id="path15271" />
+    </clipPath>
+    <clipPath
+       id="e">
+      <path
+         fill="#565656"
+         stroke-width="7.773"
+         stroke-opacity=".706"
+         d="M16.933 19.05h355.601v289.984H16.933z"
+         id="path15274" />
+    </clipPath>
+    <clipPath
+       id="d">
+      <path
+         d="M91.017 19.05L110.067 0h50.8l8.467 8.466h50.8L228.601 0h50.8l19.05 19.05z"
+         fill="#3a3a3a"
+         stroke-width="2.021"
+         stroke-opacity=".706"
+         id="path15277" />
+    </clipPath>
+    <clipPath
+       id="c">
+      <path
+         d="M389.468 19.05l-16.934 16.933h-355.6L0 19.05z"
+         fill="#3a3a3a"
+         stroke-width="2.021"
+         stroke-opacity=".706"
+         id="path15280" />
+    </clipPath>
+    <clipPath
+       id="b">
+      <path
+         d="M389.468 342.9v-42.333l-1.059-1.059v-23.283l1.059-1.058V19.05l-16.934 16.933v289.984z"
+         fill="#3a3a3a"
+         stroke-width="6.524"
+         stroke-opacity=".227"
+         id="path15283" />
+    </clipPath>
+    <clipPath
+       id="a">
+      <path
+         d="M0 342.9v4.234h8.467V342.9l5.292-5.292h23.283l5.293 5.292-.001 4.234H177.8V342.9l5.291-5.292h23.284l5.291 5.292v4.234h177.8V342.9l-16.933-16.933h-355.6z"
+         fill="#3a3a3a"
+         stroke-width="6.524"
+         stroke-opacity=".227"
+         id="path15286" />
+    </clipPath>
+  </defs>
+  <path
+     clip-path="url(#a)"
+     d="M0 342.9v4.234h8.467V342.9l5.292-5.292h23.283l5.293 5.292-.001 4.234H177.8V342.9l5.291-5.292h23.284l5.291 5.292v4.234h177.8V342.9l-16.933-16.933h-355.6z"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path15291"
+     style="opacity:0.26" />
+  <path
+     clip-path="url(#b)"
+     d="M389.468 342.9v-42.333l-1.059-1.059v-23.283l1.059-1.058V19.05l-16.934 16.933v289.984z"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path15293"
+     style="opacity:0.26" />
+  <path
+     d="M389.468 19.05l-16.934 16.933h-355.6L0 19.05z"
+     clip-path="url(#c)"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path15295"
+     style="opacity:0.26" />
+  <path
+     d="M91.017 19.05L110.067 0h50.8l8.467 8.466h50.8L228.601 0h50.8l19.05 19.05z"
+     clip-path="url(#d)"
+     fill="#565656"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path15297"
+     style="opacity:0.26" />
+  <path
+     clip-path="url(#e)"
+     transform="translate(0 16.933)"
+     fill="#565656"
+     stroke="#000"
+     stroke-width="2.117"
+     d="M16.933 19.05h355.601v289.984H16.933z"
+     id="path15299"
+     style="opacity:0.26" />
+  <path
+     d="M0 2.116L16.932 19.05l.001 289.983L0 325.967z"
+     clip-path="url(#f)"
+     transform="translate(0 16.933)"
+     fill="#3a3a3a"
+     stroke="#000"
+     stroke-width="2.117"
+     id="path15301"
+     style="opacity:0.26" />
+  <path
+     d="M389.467 245.533h33.867V254h-29.633l-4.234 4.233v25.4l4.234 4.234h29.633V330.2h-33.867z"
+     clip-path="url(#g)"
+     transform="translate(0 16.933)"
+     fill="#565656"
+     stroke="#000"
+     stroke-width="2.117"
+     id="path15303"
+     style="opacity:0.26" />
+</svg>

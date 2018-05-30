@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="544"
+   viewBox="0 0 211.667 143.933"
+   version="1.1"
+   id="svg13206"
+   sodipodi:docname="map-bunker-hydra-chamber-ceiling-03.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata13210">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     id="namedview13208"
+     showgrid="false"
+     inkscape:zoom="0.43382353"
+     inkscape:cx="20.813559"
+     inkscape:cy="272"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13206" />
+  <defs
+     id="defs13188">
+    <clipPath
+       id="j">
+      <path
+         d="M211.667 0l-16.933 16.933h-177.8L0 0z"
+         fill="#3a3a3a"
+         stroke-width="2.154"
+         stroke-opacity=".706"
+         id="path13158" />
+    </clipPath>
+    <clipPath
+       id="i">
+      <path
+         d="M211.667 143.933L194.734 127V16.933L211.667 0z"
+         fill="#3a3a3a"
+         stroke-width="2.154"
+         stroke-opacity=".706"
+         id="path13161" />
+    </clipPath>
+    <clipPath
+       id="h">
+      <path
+         d="M16.933 101.6L0 118.533h42.332L59.266 101.6z"
+         fill="#3a3a3a"
+         stroke-width="2.154"
+         stroke-opacity=".706"
+         id="path13164" />
+    </clipPath>
+    <clipPath
+       id="g">
+      <path
+         d="M42.333 118.533L59.267 101.6V127l-16.934 16.933z"
+         fill="#3a3a3a"
+         stroke-width="2.154"
+         stroke-opacity=".706"
+         id="path13167" />
+    </clipPath>
+    <clipPath
+       id="f">
+      <path
+         d="M42.333 143.933L59.267 127h135.467l16.933 16.933z"
+         fill="#3a3a3a"
+         stroke-width="2.154"
+         stroke-opacity=".706"
+         id="path13170" />
+    </clipPath>
+    <clipPath
+       id="e">
+      <path
+         d="M0 118.533l16.933-16.932V16.933L0 0v42.332L8.467 50.8v16.933L0 76.2z"
+         fill="#3a3a3a"
+         stroke-width="2.117"
+         stroke-opacity=".706"
+         id="path13173" />
+    </clipPath>
+    <pattern
+       xlink:href="#a"
+       id="c"
+       patternTransform="translate(50.8 194.734) scale(.06615)" />
+    <pattern
+       xlink:href="#b"
+       id="a"
+       patternTransform="translate(-159.834 378.683) scale(.06615)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="32"
+       height="32"
+       patternTransform="translate(-159.834 378.683) scale(.26458)"
+       id="b">
+      <path
+         fill="none"
+         stroke-width="3.78"
+         d="M0 0h32v32H0z"
+         id="path13178" />
+      <path
+         fill="none"
+         stroke-width="4"
+         d="M0 0h32v32H0z"
+         id="path13180" />
+      <path
+         d="M16 0v32M0 16h32"
+         fill="none"
+         stroke="#000"
+         stroke-width="4"
+         id="path13182" />
+    </pattern>
+    <clipPath
+       id="d">
+      <path
+         d="M64 64v320h160v96h512V64zm400 112a48 48 0 0 1 48 48 48 48 0 0 1-48 48 48 48 0 0 1-48-48 48 48 0 0 1 48-48z"
+         fill="#565656"
+         stroke-width="11.171"
+         stroke-opacity=".706"
+         id="path13185" />
+    </clipPath>
+  </defs>
+  <path
+     d="M110.067 46.567h25.4v25.4h-25.4z"
+     fill="url(#c)"
+     id="path13190"
+     style="opacity:0.26" />
+  <path
+     transform="matrix(.26458 0 0 .26458 0 0)"
+     d="M64 64v320h160v96h512V64H64zm400 112a48 48 0 0 1 48 48 48 48 0 0 1-48 48 48 48 0 0 1-48-48 48 48 0 0 1 48-48z"
+     clip-path="url(#d)"
+     fill="#565656"
+     stroke="#000"
+     stroke-width="8"
+     id="path13192"
+     style="opacity:0.26" />
+  <path
+     d="M0 118.533l16.933-16.932V16.933L0 0v42.332L8.467 50.8v16.933L0 76.2z"
+     clip-path="url(#e)"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path13194"
+     style="opacity:0.26" />
+  <path
+     d="M42.333 143.933L59.267 127h135.467l16.933 16.933z"
+     clip-path="url(#f)"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path13196"
+     style="opacity:0.26" />
+  <path
+     d="M42.333 118.533L59.267 101.6V127l-16.934 16.933z"
+     clip-path="url(#g)"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path13198"
+     style="opacity:0.26" />
+  <path
+     d="M16.933 101.6L0 118.533h42.332L59.266 101.6z"
+     clip-path="url(#h)"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path13200"
+     style="opacity:0.26" />
+  <path
+     d="M211.667 143.933L194.734 127V16.933L211.667 0z"
+     clip-path="url(#i)"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path13202"
+     style="opacity:0.26" />
+  <path
+     d="M211.667 0l-16.933 16.933h-177.8L0 0z"
+     clip-path="url(#j)"
+     fill="#3a3a3a"
+     stroke-width="2.117"
+     stroke="#000"
+     id="path13204"
+     style="opacity:0.26" />
+</svg>
